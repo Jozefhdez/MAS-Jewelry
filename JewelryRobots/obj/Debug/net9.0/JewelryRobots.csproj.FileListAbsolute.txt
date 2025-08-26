@@ -1,0 +1,15 @@
+/Users/jozefhdez/Desktop/Dev/Proyectos/Jewelry_MAS/JewelryRobots/bin/Debug/net9.0/JewelryRobots
+/Users/jozefhdez/Desktop/Dev/Proyectos/Jewelry_MAS/JewelryRobots/bin/Debug/net9.0/JewelryRobots.deps.json
+/Users/jozefhdez/Desktop/Dev/Proyectos/Jewelry_MAS/JewelryRobots/bin/Debug/net9.0/JewelryRobots.runtimeconfig.json
+/Users/jozefhdez/Desktop/Dev/Proyectos/Jewelry_MAS/JewelryRobots/bin/Debug/net9.0/JewelryRobots.dll
+/Users/jozefhdez/Desktop/Dev/Proyectos/Jewelry_MAS/JewelryRobots/bin/Debug/net9.0/JewelryRobots.pdb
+/Users/jozefhdez/Desktop/Dev/Proyectos/Jewelry_MAS/JewelryRobots/obj/Debug/net9.0/JewelryRobots.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jozefhdez/Desktop/Dev/Proyectos/Jewelry_MAS/JewelryRobots/obj/Debug/net9.0/JewelryRobots.AssemblyInfoInputs.cache
+/Users/jozefhdez/Desktop/Dev/Proyectos/Jewelry_MAS/JewelryRobots/obj/Debug/net9.0/JewelryRobots.AssemblyInfo.cs
+/Users/jozefhdez/Desktop/Dev/Proyectos/Jewelry_MAS/JewelryRobots/obj/Debug/net9.0/JewelryRobots.csproj.CoreCompileInputs.cache
+/Users/jozefhdez/Desktop/Dev/Proyectos/Jewelry_MAS/JewelryRobots/obj/Debug/net9.0/JewelryRobots.sourcelink.json
+/Users/jozefhdez/Desktop/Dev/Proyectos/Jewelry_MAS/JewelryRobots/obj/Debug/net9.0/JewelryRobots.dll
+/Users/jozefhdez/Desktop/Dev/Proyectos/Jewelry_MAS/JewelryRobots/obj/Debug/net9.0/refint/JewelryRobots.dll
+/Users/jozefhdez/Desktop/Dev/Proyectos/Jewelry_MAS/JewelryRobots/obj/Debug/net9.0/JewelryRobots.pdb
+/Users/jozefhdez/Desktop/Dev/Proyectos/Jewelry_MAS/JewelryRobots/obj/Debug/net9.0/JewelryRobots.genruntimeconfig.cache
+/Users/jozefhdez/Desktop/Dev/Proyectos/Jewelry_MAS/JewelryRobots/obj/Debug/net9.0/ref/JewelryRobots.dll
