@@ -8,41 +8,6 @@ class Program
     static int Tmax = 200;
     static Random rand = new Random();
 
-    // Entities
-    class Jewel
-    {
-        public int X, Y;
-        public char Color;
-    }
-
-    class Robot
-    {
-        public int X, Y;
-        public char Color;
-        public bool Carrying;
-        public Jewel CarryingJewel;
-
-        public void Sense()
-        {
-            // TODO: check adjacent cells
-        }
-
-        public void Move()
-        {
-            // TODO: move logic
-        }
-
-        public void PickUp()
-        {
-            // TODO: pick jewel of own color
-        }
-
-        public void Drop()
-        {
-            // TODO: drop in target area
-        }
-    }
-
     // World state
     static List<Jewel> jewels = new List<Jewel>();
     static List<Robot> robots = new List<Robot>();

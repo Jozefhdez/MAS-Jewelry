@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("JewelryRobots")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+632fa2e0f666e807edfee2d2a40160c84885a621")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5854525eef8ba07713f6640dcbbbc7066692ebc6")]
 [assembly: System.Reflection.AssemblyProductAttribute("JewelryRobots")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JewelryRobots")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
