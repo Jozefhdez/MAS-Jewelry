@@ -113,32 +113,38 @@ class World
             jewels.Add(jewel);
         }
         
+        // Create target zones for red jewels
         for (int i = 0; i < numRedJewels; i++)
         {
+            int targetX, targetY;
             do { 
-                X = rng.Next(U);
-                Y = rng.Next(U);
-            } while (grid[X, Y].color != ' ');
-            grid[X, Y].color = 'B';
+                targetX = rng.Next(U);
+                targetY = rng.Next(V);
+            } while (grid[targetX, targetY].color != ' ');
+            grid[targetX, targetY].color = 'R';
         }
 
+        // Create target zones for green jewels
         for (int i = 0; i < numGreenJewels; i++)
         {
+            int targetX, targetY;
             do { 
-                X = rng.Next(U);
-                Y = rng.Next(U);
-            } while (grid[X, Y].color != ' ');
-            grid[X, Y].color = 'B';
+                targetX = rng.Next(U);
+                targetY = rng.Next(V);
+            } while (grid[targetX, targetY].color != ' ');
+            grid[targetX, targetY].color = 'G';
         }
         
+        // Create target zones for blue jewels
         for (int i = 0; i < numBlueJewels; i++)
         {
+            int targetX, targetY;
             do
             {
-                X = rng.Next(U);
-                Y = rng.Next(U);
-            } while (grid[X, Y].color != ' ');
-            grid[X, Y].color = 'B';
+                targetX = rng.Next(U);
+                targetY = rng.Next(V);
+            } while (grid[targetX, targetY].color != ' ');
+            grid[targetX, targetY].color = 'B';
         }
     }
     
