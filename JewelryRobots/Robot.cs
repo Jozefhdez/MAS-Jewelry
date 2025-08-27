@@ -6,7 +6,7 @@ class Robot
     public int X, Y;
     public char Color;
     public bool Carrying;
-    public Jewel CarryingJewel;
+    public Jewel? CarryingJewel;
 
     public void Sense()
     {
