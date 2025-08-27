@@ -6,7 +6,7 @@ class Cell
 {
     public CellState state;
     public char color;
-    public Jewel LayingJewel;
+    public Jewel? LayingJewel;
     public int x, y;
 
     public Cell(int x, int y)

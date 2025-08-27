@@ -8,14 +8,14 @@ class World
     public int numBlueJewels = 4;
     public int U = 7;
     public int V = 7;
-    public Cell[,] grid;
+    public Cell[,] grid = null!;  // Se inicializa en InitWorld()
     public int seed = -1;
-    public System.Random rng;
-    Robot robotRed;
-    Robot robotGreen;
-    Robot robotBlue;
-    Zone zone;
-    List<Jewel> jewels;
+    public System.Random rng = null!;
+    Robot robotRed = null!;
+    Robot robotGreen = null!;
+    Robot robotBlue = null!;
+    Zone? zone;
+    List<Jewel> jewels = null!;
 
     void Start()
     {
