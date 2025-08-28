@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
 
+#pragma warning disable CS0649 // Field is never assigned to
+
 class Robot
 {
     public int X, Y;

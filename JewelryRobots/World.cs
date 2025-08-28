@@ -8,16 +8,15 @@ class World
     public int numBlueJewels = 4;
     public int U = 7;
     public int V = 7;
-    public Cell[,] grid = null!;  // Se inicializa en InitWorld()
+    public Cell[,] grid = null!;
     public int seed = -1;
     public System.Random rng = null!;
-    Robot robotRed = null!;
-    Robot robotGreen = null!;
-    Robot robotBlue = null!;
-    Zone? zone;
-    List<Jewel> jewels = null!;
+    public Robot robotRed = null!;
+    public Robot robotGreen = null!;
+    public Robot robotBlue = null!;
+    public List<Jewel> jewels = null!;
 
-    void Start()
+    public void Start()
     {
         rng = (seed < 0) ? new System.Random() : new System.Random(seed);
         InitWorld();
@@ -120,7 +119,7 @@ class World
             do { 
                 targetX = rng.Next(U);
                 targetY = rng.Next(V);
-            } while (grid[targetX, targetY].color != ' ');
+            } while (grid[targetX, targetY].color != ' ' || grid[targetX, targetY].state == CellState.robot);
             grid[targetX, targetY].color = 'R';
         }
 
@@ -131,7 +130,7 @@ class World
             do { 
                 targetX = rng.Next(U);
                 targetY = rng.Next(V);
-            } while (grid[targetX, targetY].color != ' ');
+            } while (grid[targetX, targetY].color != ' ' || grid[targetX, targetY].state == CellState.robot);
             grid[targetX, targetY].color = 'G';
         }
         
@@ -143,7 +142,7 @@ class World
             {
                 targetX = rng.Next(U);
                 targetY = rng.Next(V);
-            } while (grid[targetX, targetY].color != ' ');
+            } while (grid[targetX, targetY].color != ' ' || grid[targetX, targetY].state == CellState.robot);
             grid[targetX, targetY].color = 'B';
         }
     }
